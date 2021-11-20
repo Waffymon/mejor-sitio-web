@@ -1,0 +1,89 @@
+
+h1{
+    color:#111088
+    margin:30px 
+
+}
+h2{
+    color:#240708
+}
+
+p{
+    color:#4c04f3a8
+}
+.header{
+    background-color:#0d50e0;
+    display: flex;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:whitesmoke
+}
+
+body{
+  background-color: rgb(41, 95, 139);
+}
+    
+.trex{
+    width: 400px;
+    height: 400px;
+}
+
+.angrybird{
+    width: 400px;
+    height: 400px;
+}
+.panman{
+    width: 400px;
+    height: 400px;
+}
+
+
+.header *{
+    border:solid;
+    color:whitesmoke
+}
+
+a:link{
+       color: orange;}
+a:visited{
+    color:whitesmoke  }
+
+    .menu{margin-right: 30px;}
+
+    .menu a{
+margin-left:30px ;
+    }
+
+    .item{
+        position:relative;}
+    .item p{
+position:absolute; 
+top: 50%;
+left: 50%;
+transform:translate (-50%,-50%);
+opacity:0;
+    }
+
+    .item:hover p{
+        opacity:1;
+    }
+
+    .item:hover img{
+        opacity:33
+    }
+    .grip{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .fooder{
+        display:flex;
+        justify-content: flex-end;
+    }
+
+    .site-description{
+        display:flex;
+        flex-direction: column;
+        justify-content: first baseline;
+    }
